@@ -1,6 +1,10 @@
 package io.zipcoder.polymorphism;
 
 public class Dog extends Pets{
+    String name;
+    public Dog(){
+        name = "";
+    }
     public Dog(String name) {
         super(name);
     }
